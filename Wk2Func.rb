@@ -1,3 +1,5 @@
 def HWWk1(number)
-	if number == 1
+	if number = 1
 		"odd"
+	end
+end
