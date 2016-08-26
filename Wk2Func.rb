@@ -1,7 +1,7 @@
-def HWWk1(number)
+def Home(number)
 	if number % 2 == 0
-		even
-	else number
-		number
+		"even"
+	else
+		"odd"
 	end
 end
