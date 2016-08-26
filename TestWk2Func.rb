@@ -18,4 +18,7 @@ class TestMinedMindsFunction < Minitest::Test
 	def test_19643_equals_odd
 		assert_equal("odd", Home(19643))
 	end
+	def test_11_equals_divisble_by_11
+		assert_equal("divisible by 11", Home(11))
+	end
 end
