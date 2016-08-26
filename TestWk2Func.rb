@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "wk2func.rb"
+require_relative "wk2func1.rb"
 
 
 # class TestMinedMindsFunction < Minitest::Test 
