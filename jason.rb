@@ -1,9 +1,9 @@
 def Home(number)
-	when number % 11 == 0
+	if number % 11 == 0  
 		"divisible by 11"
-	elsif number % 2 == 0
+	elsif number.even?
 		"even"
-	else number
+	else
 		"odd"
 	end
 end
