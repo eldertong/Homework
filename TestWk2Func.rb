@@ -3,4 +3,5 @@ require_relative "wk2func.rb"
 
 
 class TestMinedMindsFunction < Minitest::Test 
-def 
+	def test_1_equals_1
+		assert_equal("odd", 1)
