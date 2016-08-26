@@ -6,13 +6,16 @@ require_relative "wk2func.rb"
 # 	def test_1_equals_1
 # 		assert_equal(1, 1)
 class TestMinedMindsFunction < Minitest::Test 
-	def test_1_equals_1
+	def test_1_equals_odd
 		assert_equal("odd", Home(1))
 	end
 	def test_4_equals_even
 		assert_equal("even", Home(4))
 	end
-	def test_3_equals_3
+	def test_3_equals_odd
 		assert_equal("odd", Home(3))
+	end
+	def test_19643_equals_odd
+		assert_equal("odd", Home(19643))
 	end
 end
