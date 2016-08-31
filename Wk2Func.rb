@@ -7,3 +7,7 @@ def Home(number)
 		"odd"
 	end
 end
+
+# def home(number)
+# 	number
+# end
