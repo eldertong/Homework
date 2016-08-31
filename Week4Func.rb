@@ -1,8 +1,8 @@
 def ary
-	ary = (1..100)
+	ary = [*(1..100)]
 	ary.each do |number, text|
 		if number == 1
-			"bob"
+			ary[text] = "bob"
 		else
 			number
 		end
