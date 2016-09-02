@@ -38,11 +38,23 @@
 # end
 def results
 	results = [*(1..100)]
+	# if result / 3
+	# 	"Mined"
+	# end
 end
 
 def mined_minds_array()
 	number = 1
 	results.each_index do |result|
+		# if result / 3
+		# 	"Mined"
+		# end
+		# if val % 3 == 0 && val % 5 == 0
+#       mined_minds[work] = 'MinedMinds'
+#     elsif val % 3 == 0
+#       mined_minds[work] = 'Mined'
+#     elsif val % 5 == 0
+#       mined_minds[work] = 'Minds'
 		number = number + result
 	end
 	results

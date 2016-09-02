@@ -12,8 +12,12 @@ class TestwadamArray < Minitest::Test
 		result = mined_minds_array()
 		assert_equal(2, result[1])
 	end
-	def test_third_element_is_mined
+	# def test_third_element_is_mined
+	# 	result = mined_minds_array()
+	# 	assert_equal("mined", result[2])
+	# end
+	def test_22nd_element_is_21
 		result = mined_minds_array()
-		assert_equal("mined", result[2])
+		assert_equal(22, result[21])
 	end
 end
