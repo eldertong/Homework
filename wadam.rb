@@ -36,16 +36,17 @@
 # 	end
 # 	sum
 # end
+def results
+	results = [*(1..100)]
+end
 
-def mined_minds_array(*results)
-	number = 0
+def mined_minds_array()
+	number = 1
 	results.each_index do |result|
 		number = number + result
 	end
 	results
 end
-
-p mined_minds
 
 
 
