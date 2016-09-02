@@ -13,18 +13,45 @@
 # end
 # p value
 
-def value
-  mined_minds = [*(1..100)]
-  mined_minds.each_index do |work|
-    val = mined_minds[work]
-    if val % 3 == 0 && val % 5 == 0
-      mined_minds[work] = 'MinedMinds'
-    elsif val % 3 == 0
-      mined_minds[work] = 'Mined'
-    elsif val % 5 == 0
-      mined_minds[work] = 'Minds'
-    end
-  end
+# def value
+#   mined_minds = [*(1..100)]
+#   mined_minds.each_index do |work|
+#     val = mined_minds[work]
+#     if val % 3 == 0 && val % 5 == 0
+#       mined_minds[work] = 'MinedMinds'
+#     elsif val % 3 == 0
+#       mined_minds[work] = 'Mined'
+#     elsif val % 5 == 0
+#       mined_minds[work] = 'Minds'
+#     end
+#   end
+# end
+
+# p value
+
+# def add(*numbers)
+# 	sum = 0
+# 	numbers.each do |number|
+# 		sum = sum + number
+# 	end
+# 	sum
+# end
+
+def mined_minds_array(*results)
+	number = 0
+	results.each_index do |result|
+		number = number + result
+	end
+	results
 end
 
-p value
+p mined_minds
+
+
+
+
+
+
+
+
+
