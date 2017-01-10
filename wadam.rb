@@ -60,6 +60,7 @@ def mined_minds_array()
 	results
 end
 
+puts mined_minds_array
 
 
 
